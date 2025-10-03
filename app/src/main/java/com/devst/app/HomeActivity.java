@@ -63,7 +63,7 @@ public class HomeActivity extends AppCompatActivity {
 
         //Eventos implicitos web
         btnAbrirWeb.setOnClickListener(View -> {
-            Uri url = Uri.parse("https://github.com/ElDefySiensia/ProjectKnowShare");
+            Uri url = Uri.parse("");
             Intent ViewWeb = new Intent(Intent.ACTION_VIEW, url);
             startActivity(ViewWeb);
         });
